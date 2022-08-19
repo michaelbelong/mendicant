@@ -1,0 +1,114 @@
+@import url("https://v1.fontapi.ir/css/SFMono:400");
+@import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap");
+
+@font-face {
+  font-family: 'Projection';
+  src: url("https://okpc.app/fonts/projection.woff") format("woff");
+}
+
+@font-face {
+  font-family: 'NeueBit';
+  src: url("../fonts/ppneuebit-regular-webfont.woff2") format("woff");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'NeueBitBold';
+  src: url("../fonts/ppneuebit-bold-webfont.woff2") format("woff");
+  font-display: swap;
+}
+
+@font-face {
+	font-family: 'CMU Typewriter Text';
+	src: url('../fonts/CMUTypewriter-Regular.woff2') format('woff2'),
+		url('../fonts/CMUTypewriter-Regular.woff') format('woff');
+	font-weight: 1000;
+	font-style: normal;
+	font-display: swap;
+}
+/* 
+html {
+	overflow: hidden;
+} */
+
+.title {
+	font-family: "NeueBitBold";
+	color: #192817;
+	line-height: 1.5;
+	-webkit-font-smoothing: antialiased;
+	cursor: default;
+	mouse-events: none;
+	transition: all .22s ease-in-out;
+}
+
+.desc {
+	font-family: "NeueBitBold";
+	color: #192817;
+	font-size: 1.7vh;
+	-webkit-font-smoothing: antialiased;
+	cursor: default;
+	transition: all .22s ease-in-out;
+}
+
+.desc:hover {
+	color: #0075FF;
+}
+
+.okpc {
+	font-family: "Projection";
+	color: #192817;
+	font-size: 2vh;
+	-webkit-font-smoothing: antialiased;
+	cursor: pointer;
+	transition: all .22s ease-in-out;
+}
+
+.okpc:hover {
+	color: #0075FF;
+}
+
+.exp {
+	font-family: "NeueBitBold";
+	color: #192817;
+	font-size: 2vh;
+	line-height: 1.4;
+	-webkit-font-smoothing: antialiased;
+	cursor: default;
+	transition: all .22s ease-in-out;
+}
+
+.exp:hover {
+	color: #F8F4E6;
+}
+
+.meta {
+	font-family: "NeueBitBold";
+	color: #192817;
+	font-size: 2vh;
+	-webkit-font-smoothing: antialiased;
+	cursor: pointer;
+	transition: all .22s ease-in-out;
+}
+
+.meta:hover {
+	color: #B5FF00;
+}
+
+.punk {
+	font-family: "CMU Typewriter Text";
+	color: #192817;
+	font-size: 3vh;
+	font-weight: 1000;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	cursor: pointer;
+	transition: all .22s ease-in-out;
+}
+
+.punk:hover {
+	color: #FF00F4;
+}
+
+.checker {
+	background: repeating-conic-gradient(#808080 0% 25%, transparent 0% 50%) 50% / 10px 10px
+}
