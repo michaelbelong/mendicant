@@ -2,3 +2,5 @@
 <Box bg="#0075FF" height="48vh" />
 <Box bg="#192817" height="48vh" />
 <Box bg="#F8F4E6" height="48vh" />
+
+w={['368px','545px','736px']}

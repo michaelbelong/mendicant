@@ -19,6 +19,7 @@ import { ExternalLinkIcon } from '@chakra-ui/icons'
 import "./styles.css";
 import { Logo } from './Logo';
 import WorkRandom from './assets/holopunk480.gif'
+import WorkRandom1 from './assets/ppuunnkk.gif'
 import { mode } from '@chakra-ui/theme-tools'
 
 // import { RandomWork } from './randomwork'
@@ -42,8 +43,8 @@ const myTheme = extendTheme({
       body: {
         bg: mode('darkback', 'darkback')(props),
         backgroundImage: mode('linear-gradient(45deg, #0075FF 25%, transparent 25%), linear-gradient(-45deg, #0075FF 25%, transparent 25%), linear-gradient(45deg, transparent 75%, #0075FF 75%), linear-gradient(-45deg, transparent 75%, #0075FF 75%)','linear-gradient(45deg, #B5FF00 25%, transparent 25%), linear-gradient(-45deg, #B5FF00 25%, transparent 25%), linear-gradient(45deg, transparent 75%, #B5FF00 75%), linear-gradient(-45deg, transparent 75%, #B5FF00 75%)'),
-        backgroundSize: '40px 40px',
-        backgroundPosition: '0 0, 0 20px, 20px -20px, -20px 0px'
+        backgroundSize: '16px 16px',
+        backgroundPosition: '0 0, 0 8px, 8px 8px, -8px 0px'
       }
     })
   }
@@ -53,10 +54,10 @@ const myTheme = extendTheme({
 function App() {
   return (
     <ChakraProvider theme={theme}>
-      <SimpleGrid minChildWidth={['100%','100%','44%']} m={8} spacing={8} >
-      <Box bg="#00FF48" height="auto" p={16}>
-        <Heading color="#192817" lineHeight={1.5} fontFamily='NeueBitBold' fontSize={['8vw','6vw','3vw']} noOfLines={3}>
-        Mendicant Bias</Heading>
+      <SimpleGrid minChildWidth={['100%','100%','44%','44%']} m='32px' spacing='32px' >
+      <Box bg="#00FF48" height="auto" p={16} >
+        <Heading color="#192817" lineHeight={1.5} fontFamily='NeueBitBold' fontSize={['8vw','6vw','3vw']} noOfLines={3}><Tooltip label="𝙱𝙴𝙶𝙶𝙰𝚁 𝙰𝙵𝚃𝙴𝚁 𝙺𝙽𝙾𝚆𝙻𝙴𝙳𝙶𝙴" placement='bottom-start' fontSize="2xl" aria-label='A tooltip'>
+        Mendicant Bias</Tooltip></Heading>
         <Box width="100%" bg="#192817" mt={4} mb={6} height={[1,1,2]}/>
         <Text fontFamily='NeueBitBold' color='#192817' fontSize={['4vw','3vw','1.7vw']}>on-chain multi-hyphenate:</Text>
         <Stack direction='column' h='auto' p={6} mb={4}>
@@ -68,7 +69,7 @@ function App() {
           <Text fontFamily='NeueBitBold' color='#192817' fontSize={['4vw','3vw','1.7vw']} >extraordinaire</Text>
           </Stack>
           <Text fontFamily='NeueBitBold' color='#192817' fontSize={['4vw','3vw','1.7vw']} mb={8}>currently building:</Text>
-          <Stack direction={['column', 'column', 'column', 'column', 'row']} spacing={[3, 3, 3, 3, 12]}>
+          <Stack direction={['column', 'column', 'column', 'column', 'row']} spacing={[3, 3, 3, 3, 8]}>
           <Link
           class="punk"
           fontSize={['6vw','3vw','1.7vw','1.7vw','1.2vw']}
@@ -119,7 +120,7 @@ function App() {
         <Heading color="#192817" lineHeight={1.5} fontFamily='NeueBitBold' fontSize={['8vw','6vw','3vw']} noOfLines={3}>Random Work</Heading>
         <Box w="100%" bg="#192817" mt={4} h={[1,1,2]}/>
         <Center w="100%" h="90%">
-          <Image src={WorkRandom} alt='Random Work crafted by Mendicant Bias'/>
+          <Image src={WorkRandom1} alt='Random Work crafted by Mendicant Bias'/>
         </Center>
       </Box>
 
